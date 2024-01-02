@@ -41,7 +41,7 @@ root.resizable(0,0)
 root.configure(background='black')
 
 result_label = Label(root,text='',bg='black',fg='white')
-result_label.grid(row=0,column=0,columnspan=5,pady=(50,25),sticky='w')
+result_label.grid(row=0,column=0,columnspan=10*100,pady=(50,25),sticky='w')
 result_label.config(font=('verdana',30,'bold'))
 
 btn7 = Button(root,text='7',bg='#00a65a',fg='white',width=5,height=2,command=lambda :get_digit(7))
